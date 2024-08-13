@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table,td{
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+.check{
+    width: 3%;
+    position: relative;
+    text-align: center;
+    height: 10vh;
+}
+.middle{
+    padding-left: 2px;
+    width: 30%;
+    align-items: center;
+}
+.end{
+    padding-left: 1px;
+    width: 70%;
+}
+.title{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    height: 60px;/*give box height*/
+    align-items: center;/*centre align*/
+}
+.navbartitle{
+    background-color: rgb(226, 236, 245);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+}
+.navbartitle button{
+    font-weight: bold;
+    border:none;
+    background-color: rgb(226, 236, 245);
+    padding: 10px;
+    justify-content: center;
+    align-items: center;   
+}
+.navbartitle button:hover{
+    color: red;
+}
+#name{
+    display: flex;
+    flex-direction: column;
+}
+#namebox{
+    width:300px;
+    height:35px
+}
+.text{
+    padding-left: 20px;
+    justify-content: space-evenly;
+    border: 1px black solid;
+}
+#textbox{
+    width:300px;
+    height:35px
+}
+.nametags{
+    display: flex;
+    flex-direction: column;
+}
+.telemiddle{
+    height: 10vh;
+    width: 50%;
+}
+.teleend{
+    width: 50%;
+}
+.submit{
+    margin: 4px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color:cornsilk;
+    height: 50px;
+    width:100%;
+}
+.submit:hover{
+    background-color:greenyellow;
+}
